@@ -1,0 +1,9 @@
+INSERT INTO Empleados.Informacion (nombre, apellido, telefono, puesto, observacion)
+VALUES 
+    ('Carla', 'Rodriguez', 44445555, 'vendedor', 'estudiante'),
+    ('Juan', 'Perez', 66667777, 'cajero', 'tiene un hijo'),
+    ('Lucas', 'Lopez', 88889999, 'repositor', ''),
+    ('Ariel', 'Moyano', 11110000, 'repositor', 'estudiante'),
+    ('Estefania', 'Torres', 22223333, 'cajero', 'ya habia trabajado en otra temporada'),
+    ('Lourdes', 'Machuca', 55554444, 'vendedor', '');
+GO

@@ -1,0 +1,9 @@
+CREATE TABLE Empleados.Informacion (
+    id_empleado INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    nombre VARCHAR(15),
+    apellido VARCHAR(20),
+    telefono BIGINT,
+    puesto VARCHAR(20),
+    observacion VARCHAR(30)
+);
+GO

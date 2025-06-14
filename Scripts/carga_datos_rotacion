@@ -1,0 +1,13 @@
+INSERT INTO Empleados.Rotacion (id_empleado, tipo_rotacion, fecha_de_rotacion, motivo, observaciones)
+VALUES 
+    (2, 'ingreso', '2025-03-02', 'ascenso', NULL),
+    (4, 'traslado', '2024-11-30', NULL, 'fue a otra sucursal'),
+    (5, 'eventual', '2023-12-20', NULL, 'ingreso'),
+    (1, 'salida', '2024-12-20', 'renuncia', NULL),
+    (3, 'ingreso', '2023-06-01', NULL, NULL),
+    (6, 'salida', '2025-05-20', 'renuncia', 'consiguió otro trabajo'),
+    (1, 'ingreso', '2025-03-10', NULL, 'volvió de viaje'),
+    (3, 'ingreso', '2024-06-01', 'ascenso', NULL),
+    (4, 'salida', '2024-12-30', 'despido', 'faltaba mucho'),
+    (5, 'eventual', '2023-12-31', 'despido', 'fin de temporada');
+GO

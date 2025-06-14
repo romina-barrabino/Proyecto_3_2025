@@ -1,0 +1,10 @@
+CREATE TABLE Empleados.Rotacion (
+    id_rotacion INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    id_empleado INT,
+    tipo_rotacion VARCHAR(15),
+    fecha_de_rotacion DATE,
+    motivo VARCHAR(15),
+    observaciones VARCHAR(100),
+    FOREIGN KEY (id_empleado) REFERENCES Empleados.Informacion(id_empleado)
+);
+GO
