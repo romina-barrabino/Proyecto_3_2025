@@ -1,19 +1,18 @@
-CREATE TABLE Empleados.Encuesta (
+CREATE TABLE dbo.Encuesta (
     id_encuesta INT IDENTITY(1,1) PRIMARY KEY,
     id_empleado INT,
     fecha DATE DEFAULT GETDATE(),
-    preg1_valorado INT, --1. Me siento valorado/a por la empresa
-    preg2_herramientas INT, --2. Tengo las herramientas necesarias para hacer bien mi trabajo
-    preg3_carga_trabajo INT, --3. Mi carga de trabajo es razonable
-    preg4_reconocimiento_jefe INT, --4. Mi jefe directo reconoce mis logros
-    preg5_motivacion INT, --5. Me siento motivado/a a dar lo mejor de mí en mi trabajo diario
-    preg6_comunicacion_equipo INT, --6. La comunicación dentro de mi equipo es efectiva
-    preg7_crecimiento INT, --7. Siento que puedo crecer profesionalmente dentro de la empresa
-    preg8_equilibrio_vida_trabajo INT, --8. Estoy satisfecho/a con el equilibrio entre mi trabajo y mi vida personal
-    preg9_bienestar INT, --9. La empresa se preocupa por el bienestar de sus empleados
-    preg10_orgullo INT, --10. Me siento orgulloso/a de trabajar aquí
-    preg11_claridad_responsabilidades INT, --11. Comprendo claramente mis responsabilidades y tareas
-    preg12_satisfaccion_sueldo INT, --12. Me considero satisfecho/a con mi salario actual
-    FOREIGN KEY (id_empleado) REFERENCES Empleados.Informacion(id_empleado)
-);
+    p1 INT,
+    p2 INT,
+    p3 INT,
+    p4 INT,
+    p5 INT,
+    p6 INT,
+    p7 INT,
+    p8 INT,
+    p9 INT,
+    p10 INT,
+    p11 INT,
+    p12 INT,
+    FOREIGN KEY (id_empleado) REFERENCES dbo.Informacion(id_empleado));
 GO

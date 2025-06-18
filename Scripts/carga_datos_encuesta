@@ -1,9 +1,5 @@
-INSERT INTO Empleados.Encuesta (
-    id_empleado, 
-    preg1_valorado, preg2_herramientas, preg3_carga_trabajo, preg4_reconocimiento_jefe,
-    preg5_motivacion, preg6_comunicacion_equipo, preg7_crecimiento, preg8_equilibrio_vida_trabajo,
-    preg9_bienestar, preg10_orgullo, preg11_claridad_responsabilidades, preg12_satisfaccion_sueldo
-)
+INSERT INTO dbo.Encuesta (
+    id_empleado,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12)
 VALUES 
 (1,3,5,3,4,1,5,3,2,3,4,2,3),
 (2,5,5,5,3,4,5,4,5,2,4,3,5),

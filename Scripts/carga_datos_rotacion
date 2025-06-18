@@ -1,4 +1,4 @@
-INSERT INTO Empleados.Rotacion (id_empleado, tipo_rotacion, fecha_de_rotacion, motivo, observaciones)
+INSERT INTO dbo.Rotacion (id_empleado, tipo_rotacion, fecha_de_rotacion, motivo, observaciones)
 VALUES 
     (2, 'ingreso', '2025-03-02', 'ascenso', NULL),
     (4, 'traslado', '2024-11-30', NULL, 'fue a otra sucursal'),

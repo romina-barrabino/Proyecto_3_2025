@@ -1,4 +1,4 @@
-CREATE TABLE Empleados.Informacion (
+CREATE TABLE dbo.Informacion (
     id_empleado INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
     nombre VARCHAR(15),
     apellido VARCHAR(20),
