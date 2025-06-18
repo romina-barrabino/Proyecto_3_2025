@@ -48,9 +48,8 @@ Proyecto_3_2025
 .) .gitignore= Posee el nombre de los archivos que no deberan visualizarse en el Github.
 
 # Instalaciones y/o scripts para la terminal de Visual Studio: 
-a) Instalacion de dotenv: pip install python-dotenv
-b) Evitar la visualizacion de la carpeta .env en GitHub: git rm --cached .env
-c) Verificacion de la instalacion de git: git --version
+a) Evitar la visualizacion de la carpeta .env en GitHub: git rm --cached .env
+b) Verificacion de la instalacion de git: git --version
 
 # Conexion entre Visual Studio y un repositorio en GitHub que llamare "Proyecto_2_2025"
 git init
